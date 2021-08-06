@@ -1,0 +1,73 @@
+23:57:43 **** Rebuild of configuration Debug for project Project_GuessingGame ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o guessingGame.o "..\\guessingGame.cpp" 
+g++ -o Project_GuessingGame.exe guessingGame.o 
+Info: Nothing to build for Project_GuessingGame
+Info: Nothing to build for Project_GuessingGame
+23:59:39 **** Rebuild of configuration Debug for project Project_MatrixCalculator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o MatrixCalculator.o "..\\MatrixCalculator.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Matrix.o "..\\Matrix.cpp" 
+g++ -o Project_MatrixCalculator.exe Matrix.o MatrixCalculator.o 
+00:00:17 **** Clean-only build of configuration Debug for project Project_MatrixCalculator ****
+rm -rf Matrix.o MatrixCalculator.o Project_MatrixCalculator.exe Matrix.d MatrixCalculator.d 
+00:00:21 **** Rebuild of configuration Debug for project Project_MatrixCalculator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o MatrixCalculator.o "..\\MatrixCalculator.cpp" 
+..\MatrixCalculator.cpp: In function 'int main()':
+..\MatrixCalculator.cpp:86:22: error: conflicting declaration 'std::vector<std::vector<int> > a'
+   86 |  vector<vector<int>> a{{1,2},{3,4}};
+      |                      ^
+..\MatrixCalculator.cpp:54:9: note: previous declaration as 'Matrix a'
+   54 |  Matrix a(3,3, m);
+      |         ^
+..\MatrixCalculator.cpp:88:19: error: no matching function for call to 'Matrix::Matrix(int, int, Matrix&)'
+   88 |  Matrix aMat(2,2,a);
+      |                   ^
+In file included from ..\MatrixCalculator.cpp:42:
+..\matrixHeader.h:29:2: note: candidate: 'Matrix::Matrix(int, int, char)'
+   29 |  Matrix(int r, int c, char matType); //matType is a character I for identity matrix, otherwise an empty matrix is returned
+      |  ^~~~~~
+..\matrixHeader.h:29:28: note:   no known conversion for argument 3 from 'Matrix' to 'char'
+   29 |  Matrix(int r, int c, char matType); //matType is a character I for identity matrix, otherwise an empty matrix is returned
+      |                       ~~~~~^~~~~~~
+..\matrixHeader.h:28:2: note: candidate: 'Matrix::Matrix(int, int, std::vector<std::vector<int> >&)'
+   28 |  Matrix(int r, int c, vector<vector<int>> &m);
+      |  ^~~~~~
+..\matrixHeader.h:28:44: note:   no known conversion for argument 3 from 'Matrix' to 'std::vector<std::vector<int> >&'
+   28 |  Matrix(int r, int c, vector<vector<int>> &m);
+      |                       ~~~~~~~~~~~~~~~~~~~~~^
+..\matrixHeader.h:26:2: note: candidate: 'Matrix::Matrix()'
+   26 |  Matrix(); //making the default constructor private so that it can't be called
+      |  ^~~~~~
+..\matrixHeader.h:26:2: note:   candidate expects 0 arguments, 3 provided
+..\matrixHeader.h:22:7: note: candidate: 'Matrix::Matrix(const Matrix&)'
+   22 | class Matrix {
+      |       ^~~~~~
+..\matrixHeader.h:22:7: note:   candidate expects 1 argument, 3 provided
+00:01:31 **** Clean-only build of configuration Debug for project Project_MatrixCalculator ****
+rm -rf Matrix.o MatrixCalculator.o Project_MatrixCalculator.exe Matrix.d MatrixCalculator.d 
+00:01:34 **** Rebuild of configuration Debug for project Project_MatrixCalculator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Matrix.o "..\\Matrix.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o MatrixCalculator.o "..\\MatrixCalculator.cpp" 
+g++ -o Project_MatrixCalculator.exe Matrix.o MatrixCalculator.o 
+00:02:27 **** Clean-only build of configuration Debug for project Project_BookInventorySystem ****
+rm -rf Project_BookInventorySystem.exe BookInventorySystem.o BookInventorySystem.d Book.o Book.d 
+00:02:38 **** Clean-only build of configuration Debug for project Project_BookInventorySystem ****
+rm -rf Project_BookInventorySystem.exe BookInventorySystem.o BookInventorySystem.d Book.o Book.d 
+00:03:15 **** Clean-only build of configuration Debug for project Project_TLEReader ****
+rm -rf Project_TLEReader.exe TLEReader.d TLEReader.o 
+00:04:36 **** Rebuild of configuration Debug for project Project_BookInventorySystem ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BookInventorySystem.o "..\\BookInventorySystem.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Book.o "..\\Book.cpp" 
+g++ -o Project_BookInventorySystem.exe Book.o BookInventorySystem.o 
+Info: Nothing to build for Project_GuessingGame
+Info: Nothing to build for Project_MatrixCalculator
+00:04:38 **** Rebuild of configuration Debug for project Project_TLEReader ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o TLEReader.o "..\\TLEReader.cpp" 
+g++ -o Project_TLEReader.exe TLEReader.o 
+Info: Nothing to build for Project_TLEReader
+Info: Nothing to build for Project_BookInventorySystem
