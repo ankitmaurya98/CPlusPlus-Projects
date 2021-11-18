@@ -1,6 +1,6 @@
 # Cplusplus-Projects
-### This repository contains the project folders and code for the various C++ projects that I have done.
-### Description of the various projects that are inlcuded in this repository:
+#### This repository contains the project folders and code for the various C++ projects that I have done.
+#### Description of the various projects that are inlcuded in this repository:
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Arduino Projects
 
