@@ -1,5 +1,6 @@
 //Created 11/2/2021
 //This code reads values from 10K Ohm thermistor and then coverts the readings into Celsius and Fahrenheit temperature readings
+//Those readings are then displayed onto a 16x2 LCD display.
 
 
 //Websites used for reference:
@@ -8,7 +9,7 @@
 
 
 
-#include <LiquidCrystal.h>
+#include <LiquidCrystal.h>  //header file that is used for the LCD display
 
 
 //Setting Variables:
