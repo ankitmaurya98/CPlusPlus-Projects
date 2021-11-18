@@ -3,5 +3,7 @@ LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
 configDescList=org.eclipse.launchbar.core.descriptorType.default\:Project_GuessingGame.exe,org.eclipse.launchbar.core.descriptorType.default\:Project_MatrixCalculator.exe,org.eclipse.launchbar.core.descriptorType.default\:Project_TLEReader.exe,org.eclipse.launchbar.core.descriptorType.default\:Project_BookInventorySystem.exe
 eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:Project_BookInventorySystem.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Project_BookInventorySystem.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:Project_GuessingGame.exe/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:Project_GuessingGame.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
