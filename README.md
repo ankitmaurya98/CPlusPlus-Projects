@@ -19,4 +19,7 @@
 
 #### LCD-Thermistor Project 
 ###### In this project a thermistor is used to take temperature readings. Those readings are then converted into Celsius and Fahrenheit. They are then displayed onto a 16x2 LCD display.
+
+#### Ultrasonic Sensor-Stopwatch Project 
+###### In this project a stopwatch timer is created in the code. The running time is then displayed onto a 16x2 LCD display. The user specifes when the stopwatch should start by typing the "START" command. The stopwatch stops when the Ultrasonic Sensor detects an object within 5 cm. The point of the Ultrasonic sensor is to act as a "finish line" that stops the time when something crosses in front of it.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
